@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Pay To Wallet</title>
+</head>
+<body>
+<table>
+<form action="AccountServlet" method="post">
+<input type="radio" name="bank" value="CreditCard" checked>CreditCard
+  <input type="radio" name="bank" value="DebitCard">DebitCard
+  <input type="radio" name="bank" value="NetBanking">NetBanking
+     <tr>  <td>  <label>Select Bank</label></td><td><select>
+ 						 <option value=" "></option>
+						<option value="SBI">StateBankGRoup</option>
+						<option value="AndhraBank">AndhraBank</option>
+						<option value="ICICI">ICICI</option>
+						<option value="HDFC">HDFC</option>
+						<option value="Axis">Axis</option>
+						<option value="DCCB">DCCB</option>
+						
+				</select>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td></tr><br>
+				<tr><td><label>Enter Amount*</label></td> <td><input type="number"  name="Amount"></td></tr><br>
+   <tr><td><label>Enter Card Number</label></td> <td><input type="number"  name="CardNumber"></td></tr><br>
+   <tr>  <td>  <label>ExpairyDate</label></td><td><select>
+   						<option value="Month ">Month</option>
+ 						 <option value="Month ">Jan</option>
+						<option value="Month">Feb</option>
+						<option value="Month">Mar</option>
+						<option value="Month">Apr</option>
+						<option value="Month">May</option>
+						<option value="Month">Jun</option>
+						<option value="Month">Jul</option>
+						<option value="Month ">Aug</option>
+						<option value="Month">Sep</option>
+						<option value="Month">Oct</option>
+						<option value="Month">Nov</option>
+						<option value="Month">Dec</option>
+						
+				</select>
+				<select>
+ 						 <option value="Year">Year</option>
+						<option value="Year">2015</option>
+						<option value="Year">2016</option>
+						<option value="Year">2017</option>
+						<option value="Year">2018</option>
+						<option value="Year">2019</option>
+						<option value="Year">2020</option>
+						<option value="Year">2021</option>
+						<option value="Year">2022</option>
+						<option value="Year">2023</option>
+						<option value="Year">2024</option>
+						<option value="Year">2025</option>
+						<option value="Year">2026</option>
+						<option value="Year">2027</option>
+				</select><input type="password"  name="CVV" value=cvv">
+				</td></tr><br>
+			
+   
+   <tr><td><label></label></td><td><input type="submit" value="Pay To Wallet"></td>
+   </tr>
+</form>
+</table>
+
+</body>
+</html>
